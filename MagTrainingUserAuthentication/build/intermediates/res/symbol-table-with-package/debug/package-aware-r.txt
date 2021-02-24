@@ -1625,6 +1625,7 @@ string request_otp
 string resources
 string search_menu_title
 string select_delivery_channel
+string sharedUserLabel
 string social_login_enterprise
 string social_login_facebook
 string social_login_google

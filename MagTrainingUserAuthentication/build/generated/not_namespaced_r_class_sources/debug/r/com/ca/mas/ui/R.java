@@ -1485,22 +1485,22 @@ public final class R {
         public static final int resources = 0x7f100052;
         public static final int search_menu_title = 0x7f100053;
         public static final int select_delivery_channel = 0x7f100054;
-        public static final int social_login_enterprise = 0x7f100055;
-        public static final int social_login_facebook = 0x7f100056;
-        public static final int social_login_google = 0x7f100057;
-        public static final int social_login_linkedin = 0x7f100058;
-        public static final int social_login_qr_code = 0x7f100059;
-        public static final int social_login_salesforce = 0x7f10005a;
-        public static final int social_login_title = 0x7f10005b;
-        public static final int standard_sign_in = 0x7f10005c;
-        public static final int status_bar_notification_info_overflow = 0x7f10005d;
-        public static final int subscribe_success = 0x7f10005e;
-        public static final int subscribed = 0x7f10005f;
-        public static final int title_success = 0x7f100060;
-        public static final int unsubscribed = 0x7f100061;
-        public static final int uri_create_failed = 0x7f100062;
-        public static final int user_name = 0x7f100063;
-        public static final int verify_otp = 0x7f100064;
+        public static final int social_login_enterprise = 0x7f100056;
+        public static final int social_login_facebook = 0x7f100057;
+        public static final int social_login_google = 0x7f100058;
+        public static final int social_login_linkedin = 0x7f100059;
+        public static final int social_login_qr_code = 0x7f10005a;
+        public static final int social_login_salesforce = 0x7f10005b;
+        public static final int social_login_title = 0x7f10005c;
+        public static final int standard_sign_in = 0x7f10005d;
+        public static final int status_bar_notification_info_overflow = 0x7f10005e;
+        public static final int subscribe_success = 0x7f10005f;
+        public static final int subscribed = 0x7f100060;
+        public static final int title_success = 0x7f100061;
+        public static final int unsubscribed = 0x7f100062;
+        public static final int uri_create_failed = 0x7f100063;
+        public static final int user_name = 0x7f100064;
+        public static final int verify_otp = 0x7f100065;
     }
     public static final class style {
         private style() {}

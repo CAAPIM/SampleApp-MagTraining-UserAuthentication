@@ -1,50 +1,47 @@
-
 {
   "server": {
-    "hostname": "mobile.dhcp.broadcom.net",
+    "hostname": "mobile-staging-iosautomation.lvn.broadcom.net",
     "port": 8443,
     "prefix": "",
     "server_certs": [
       [
         "-----BEGIN CERTIFICATE-----",
-        "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",
+        "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",
+        "yGAqNFYt9VoPIw==",
         "-----END CERTIFICATE-----"
       ]
     ]
   },
   "oauth": {
     "client": {
-      "organization": "BRC",
-      "description": "Allow Backup testing",
-      "client_name": "Ruqiya",
+      "organization": "CA Technologies",
+      "description": "What is the app used for?",
+      "client_name": "iOSAutomation",
       "client_type": "confidential",
       "registered_by": "admin",
       "client_custom": {},
       "client_ids": [
         {
-          "client_id": "fcb3efb1-b933-4644-9fe0-e63c16447eb2",
+          "client_id": "1f7f2adc-ecf2-4dd7-b9cd-98746c86a7e4",
           "client_secret": "",
           "scope": "openid msso phone profile address email msso_client_register msso_register mas_messaging mas_storage mas_identity mas_identity_retrieve_users mas_identity_create_users mas_identity_update_users mas_identity_delete_users mas_identity_retrieve_groups mas_identity_create_groups mas_identity_update_groups mas_identity_delete_groups",
-          "redirect_uri": "camsso://com.camsso.appc",
+          "redirect_uri": "masunit://",
           "environment": "ALL",
           "status": "ENABLED",
           "registered_by": "admin",
@@ -55,19 +52,19 @@
               "request": {},
               "oauth_client": true,
               "response": {
-                "client_id": "fcb3efb1-b933-4644-9fe0-e63c16447eb2",
-                "client_secret": "fcb3efb1-b933-4644-9fe0-e63c16447eb2",
+                "client_id": "1f7f2adc-ecf2-4dd7-b9cd-98746c86a7e4",
+                "client_secret": "1f7f2adc-ecf2-4dd7-b9cd-98746c86a7e4",
                 "client_secret_expires_at": "0",
-                "client_id_issued_at": 1575436456,
+                "client_id_issued_at": 1548107478,
                 "registration_access_token": "",
                 "registration_client_uri": "",
                 "token_endpoint_auth_method": "client_secret_basic",
                 "token_endpoint_auth_signing_alg": "",
                 "application_type": "",
                 "redirect_uris": [
-                  "camsso://com.camsso.appc"
+                  "masunit://"
                 ],
-                "client_name": "Ruqiya",
+                "client_name": "iOSAutomation",
                 "subject_type": "pairwise",
                 "sector_identifier_uri": "",
                 "contacts": [],
@@ -76,9 +73,9 @@
                 "id_token_signed_response_alg": "HS256",
                 "userinfo_signed_response_alg": "",
                 "environment": "ALL",
-                "organization": "BRC",
+                "organization": "CA Technologies",
                 "master": true,
-                "description": "Allow Backup testing",
+                "description": "What is the app used for?",
                 "scope": "openid msso phone profile address email msso_client_register msso_register mas_messaging mas_storage mas_identity mas_identity_retrieve_users mas_identity_create_users mas_identity_update_users mas_identity_delete_users mas_identity_retrieve_groups mas_identity_create_groups mas_identity_update_groups mas_identity_delete_groups",
                 "jwks": "",
                 "jwks_uri": ""
@@ -100,7 +97,8 @@
     }
   },
   "mas": {
-    "scim-path": "/SCIM/MAS/v2"
+    "scim-path": "/SCIM/MAS/v2",
+    "mas-storage-path": "/MASS/v1/Client"
   },
   "mag": {
     "system_endpoints": {
@@ -134,32 +132,6 @@
   },
   "custom": {
     "oauth_demo_protected_api_endpoint_path": "/oauth/v2/protectedapi/foo",
-    "mag_demo_products_endpoint_path": "/protected/resource/products",
-    "mas_riskanalysis_endpoints": {
-      "get_deviceid_endpoint_path": "/auth/riskauth/risk/generateDeviceID"
-    },
-    "mas_authotp_endpoints": {
-      "verifyotp_endpoint_path": "/auth/strongauth/aotp/verifyAOTP/",
-      "create_aotp_endpoint_path": "/auth/strongauth/aotp/create/",
-      "delete_aotp_endpoint_path": "/auth/strongauth/aotp/delete/",
-      "disable_aotp_endpoint_path": "/auth/strongauth/aotp/disable/",
-      "download_aotp_endpoint_path": "/auth/strongauth/aotp/download/",
-      "enable_aotp_endpoint_path": "/auth/strongauth/aotp/enable/",
-      "fetch_aotp_endpoint_path": "/auth/strongauth/aotp/fetch/",
-      "reissue_aotp_endpoint_path": "/auth/strongauth/aotp/reissue/",
-      "reset_aotp_endpoint_path": "/auth/strongauth/aotp/reset/"
-    },
-    "mas_authid_endpoints": {
-      "getchallenge_endpoint_path": "/auth/strongauth/authid/challenge",
-      "verifychallenge_endpoint_path": "/auth/strongauth/authid/verifySignedChallenge",
-      "create_authid_endpoint_path": "/auth/strongauth/authid/create/",
-      "delete_authid_endpoint_path": "/auth/strongauth/authid/delete/",
-      "disable_authid_endpoint_path": "/auth/strongauth/authid/disable/",
-      "download_authid_endpoint_path": "/auth/strongauth/authid/download/",
-      "enable_authid_endpoint_path": "/auth/strongauth/authid/enable/",
-      "fetch_authid_endpoint_path": "/auth/strongauth/authid/fetch/",
-      "reissue_authid_endpoint_path": "/auth/strongauth/authid/reissue/",
-      "reset_authid_endpoint_path": "/auth/strongauth/authid/reset/"
-    }
+    "mag_demo_products_endpoint_path": "/protected/resource/products"
   }
 }

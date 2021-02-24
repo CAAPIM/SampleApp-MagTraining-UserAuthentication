@@ -836,11 +836,11 @@ public final class R {
         public static final int published = 0x7f10004d;
         public static final int resources = 0x7f100052;
         public static final int search_menu_title = 0x7f100053;
-        public static final int status_bar_notification_info_overflow = 0x7f10005d;
-        public static final int subscribe_success = 0x7f10005e;
-        public static final int subscribed = 0x7f10005f;
-        public static final int unsubscribed = 0x7f100061;
-        public static final int uri_create_failed = 0x7f100062;
+        public static final int status_bar_notification_info_overflow = 0x7f10005e;
+        public static final int subscribe_success = 0x7f10005f;
+        public static final int subscribed = 0x7f100060;
+        public static final int unsubscribed = 0x7f100062;
+        public static final int uri_create_failed = 0x7f100063;
     }
     public static final class style {
         private style() {}
