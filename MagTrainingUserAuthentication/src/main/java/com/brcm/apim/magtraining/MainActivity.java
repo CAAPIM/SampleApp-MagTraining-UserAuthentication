@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     private Button mLogoutButton = null;
     private TextView mJsonResponseTextView = null;
     private TextView mUserAuthenticatedStatus = null;
+    private EditText mUserName = null;
+    private EditText mPassword = null;
 
     static final int REQUEST_IMAGE_CAPTURE = 1;
 
@@ -70,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
 
         mLoginButton = findViewById(R.id.loginButton);
         mLogoutButton = findViewById(R.id.logoutButton);
+        mPassword = findViewById(R.id.textView);
+        mUserName = findViewById(R.id.textView1);
+
         mUserAuthenticatedStatus = findViewById(R.id.userStatusTextView);
 
         //
@@ -167,7 +172,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Log.d(TAG, "Login Button has been clicked");
-                MASUser.login("spock","StRonG5^)".toCharArray(), new MASCallback<MASUser>() {
+                MASUser.login(mUserName.getText().toString(),mPassword.getText().toString().toCharArray(), new MASCallback<MASUser>() {
+
+               // MASUser.login(mUserName.getText().toString(),mPassword.getText().toString())., new MASCallback<MASUser>() {
                     @Override
                     public void onSuccess(MASUser masUser) {
                         Log.d(TAG, "User was successfully authenticated");
@@ -181,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
-
+        
         //
         // Defined the Logout Buttton listener
         //
@@ -265,7 +272,8 @@ public class MainActivity extends AppCompatActivity {
                                 setTitle("Authenticated [" + currentUser.getUserName().toString() + "]");
                             }
                             mLogoutButton.setVisibility(View.VISIBLE);
-
+                            mUserName.setVisibility(View.INVISIBLE);
+                            mPassword.setVisibility(View.INVISIBLE);
                             mLoginButton.setVisibility(View.INVISIBLE);
 
                         } catch (Exception e) {
@@ -296,7 +304,8 @@ public class MainActivity extends AppCompatActivity {
                     mLogoutButton.setVisibility(View.INVISIBLE);
 
                     mLoginButton.setVisibility(View.VISIBLE);
-
+                    mUserName.setVisibility(View.VISIBLE);
+                    mPassword.setVisibility(View.VISIBLE);
                     mLoginButton.setEnabled(true);
                     setTitle("Please Authenticate");
                     mUserAuthenticatedStatus.setText("Not Authenticated");

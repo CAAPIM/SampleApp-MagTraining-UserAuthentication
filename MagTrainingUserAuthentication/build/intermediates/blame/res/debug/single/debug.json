@@ -64,12 +64,12 @@
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
-    },
-    {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
@@ -156,24 +156,24 @@
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -216,12 +216,12 @@
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/anim_design_snackbar_out.xml.flat",
@@ -252,16 +252,16 @@
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
-        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/color_design_error.xml.flat",
+        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/color/design_error.xml"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/color_design_error.xml.flat",
-        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/c7eb9cd3508ac3959447c14fd76c9fb9/material-1.0.0/res/color/design_error.xml"
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat",
@@ -280,12 +280,12 @@
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/5af315ff5c623a1ffdad1acb8f88db2e/masui-2.1.00/res/layout/view_checkbox.xml"
     },
     {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xhdpi-v4_google_disabled.png.flat",
-        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/5af315ff5c623a1ffdad1acb8f88db2e/masui-2.1.00/res/drawable-xhdpi-v4/google_disabled.png"
-    },
-    {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xhdpi-v4_google_disabled.png.flat",
+        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/5af315ff5c623a1ffdad1acb8f88db2e/masui-2.1.00/res/drawable-xhdpi-v4/google_disabled.png"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-hdpi-v4_facebook_disabled.png.flat",
@@ -300,12 +300,12 @@
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable_drawable_bg.xml.flat",
         "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/5af315ff5c623a1ffdad1acb8f88db2e/masui-2.1.00/res/drawable/drawable_bg.xml"
+    },
+    {
+        "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/Users/abhisheknaidu/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/abhisheknaidu/Desktop/Android_SampleApps/SampleApp-MagTraining-UserAuthentication/MagTrainingUserAuthentication/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
