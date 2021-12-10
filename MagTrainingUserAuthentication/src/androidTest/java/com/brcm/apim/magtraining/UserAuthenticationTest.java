@@ -60,6 +60,7 @@ public class UserAuthenticationTest {
     public ActivityScenarioRule<MainActivity> mActivityRule =
             new ActivityScenarioRule<>(MainActivity.class);
 
+    /*This test is used to test the positive use-case of user-Authentication*/
     @Test
     public void UserAuthentication() throws InterruptedException {
         onView(withId(R.id.textView1))
@@ -70,7 +71,6 @@ public class UserAuthenticationTest {
         onView(withId(R.id.loginButton)).perform(click());
         Thread.sleep(8000);
         onView(withId(R.id.logoutButton)).check(matches(isDisplayed()));
-
 
     }
 
