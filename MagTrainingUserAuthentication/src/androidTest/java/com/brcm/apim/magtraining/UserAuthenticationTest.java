@@ -10,6 +10,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.isRoot;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
 
+import android.content.Context;
 import android.os.Build;
 import android.view.View;
 
@@ -64,10 +65,10 @@ public class UserAuthenticationTest {
     @Test
     public void UserAuthentication() throws InterruptedException {
         onView(withId(R.id.textView1))
-                .perform(typeText("admin"), closeSoftKeyboard());
+                .perform(typeText(getResourceString(R.string.user_name)), closeSoftKeyboard());
 
         onView(withId(R.id.textView))
-                .perform(typeText("7layer"), closeSoftKeyboard());
+                .perform(typeText(getResourceString(R.string.password)), closeSoftKeyboard());
         onView(withId(R.id.loginButton)).perform(click());
         Thread.sleep(8000);
         onView(withId(R.id.logoutButton)).check(matches(isDisplayed()));
@@ -116,5 +117,9 @@ public class UserAuthenticationTest {
         };
     }
 
+    private String getResourceString(int id) {
+        Context targetContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+        return targetContext.getResources().getString(id);
+    }
 
 }
