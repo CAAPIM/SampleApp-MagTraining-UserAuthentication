@@ -7,4 +7,6 @@
     <string name="user_name">admin</string>
     <string name="password">7layer</string>
 
+    <string name="wrong_password">layer</string>
+
 </resources>

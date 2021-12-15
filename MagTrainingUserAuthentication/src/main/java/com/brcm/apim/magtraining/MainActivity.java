@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                CountingIdlingResourceSingleton.increment();
                 Log.d(TAG, "Login Button has been clicked");
                 MASUser.login(mUserName.getText().toString(),mPassword.getText().toString().toCharArray(), new MASCallback<MASUser>() {
 
@@ -179,11 +179,13 @@ public class MainActivity extends AppCompatActivity {
                     public void onSuccess(MASUser masUser) {
                         Log.d(TAG, "User was successfully authenticated");
                         refreshDialogStatus();
+                        CountingIdlingResourceSingleton.decrement();
                     }
 
                     @Override
                     public void onError(Throwable throwable) {
                         Log.d(TAG, "User was failed to authenticate successfully");
+                        CountingIdlingResourceSingleton.decrement();
                     }
                 });
             }
