@@ -170,27 +170,34 @@ public class MainActivity extends AppCompatActivity {
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                CountingIdlingResourceSingleton.increment();
-                Log.d(TAG, "Login Button has been clicked");
-                MASUser.login(mUserName.getText().toString(),mPassword.getText().toString().toCharArray(), new MASCallback<MASUser>() {
+                if (BuildConfig.DEBUG) {
+                    CountingIdlingResourceSingleton.increment();
+                }
 
-               // MASUser.login(mUserName.getText().toString(),mPassword.getText().toString())., new MASCallback<MASUser>() {
+                Log.d(TAG, "Login Button has been clicked");
+                MASUser.login(mUserName.getText().toString(), mPassword.getText().toString().toCharArray(), new MASCallback<MASUser>() {
+
+                    // MASUser.login(mUserName.getText().toString(),mPassword.getText().toString())., new MASCallback<MASUser>() {
                     @Override
                     public void onSuccess(MASUser masUser) {
                         Log.d(TAG, "User was successfully authenticated");
                         refreshDialogStatus();
-                        CountingIdlingResourceSingleton.decrement();
+                        if (BuildConfig.DEBUG) {
+                            CountingIdlingResourceSingleton.decrement();
+                        }
                     }
 
                     @Override
                     public void onError(Throwable throwable) {
                         Log.d(TAG, "User was failed to authenticate successfully");
-                        CountingIdlingResourceSingleton.decrement();
+                        if (BuildConfig.DEBUG) {
+                            CountingIdlingResourceSingleton.decrement();
+                        }
                     }
                 });
             }
         });
-        
+
         //
         // Defined the Logout Buttton listener
         //
