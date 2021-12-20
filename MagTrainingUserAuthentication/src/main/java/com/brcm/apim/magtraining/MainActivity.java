@@ -206,6 +206,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d(TAG, "Logout Button has been clicked");
+                if (BuildConfig.DEBUG) {
+                    CountingIdlingResourceSingleton.increment();
+                }
 
                 if (MASUser.getCurrentUser() != null) {
 
@@ -215,11 +218,17 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(Void aVoid) {
                             Log.d(TAG, "User " + lAuthenticatedUserName + " has been logged out");
+                            if (BuildConfig.DEBUG) {
+                                CountingIdlingResourceSingleton.decrement();
+                            }
                             refreshDialogStatus();
                         }
 
                         @Override
                         public void onError(Throwable throwable) {
+                            if (BuildConfig.DEBUG) {
+                                CountingIdlingResourceSingleton.decrement();
+                            }
                         }
                     });
                 }
