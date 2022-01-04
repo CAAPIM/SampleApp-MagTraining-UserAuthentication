@@ -36,10 +36,14 @@ import org.junit.runners.MethodSorters;
 
 import java.util.concurrent.TimeoutException;
 
+
+/* This class is used to test User Authentication */
 @RunWith(AndroidJUnit4.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UserAuthenticationTest {
 
+    /* This method is called before the test, it will invoke/enable the runtime permissions, This also initiates Idling resource
+       object */
     @Before
     public void grantPhonePermission() {
         IdlingRegistry.getInstance().register(CountingIdlingResourceSingleton.countingIdlingResource);
@@ -58,12 +62,12 @@ public class UserAuthenticationTest {
         }
     }
 
-
+    /* This will launch the MainActivity */
     @Rule
     public ActivityScenarioRule<MainActivity> mActivityRule =
             new ActivityScenarioRule<>(MainActivity.class);
 
-    /*This test is used to test the positive use-case of user-Authentication*/
+    /*This test is used to test the negative use-case of user-Authentication*/
     @Test
     public void test_01UserAuthenticationWrongPassword() {
         onView(withId(R.id.textView1))
@@ -78,71 +82,31 @@ public class UserAuthenticationTest {
 
     }
 
+    /*This test is used to test the positive use-case of user-Authentication*/
     @Test
     public void test_02UserAuthenticationLogin() {
         onView(withId(R.id.textView1))
                 .perform(typeText(getResourceString(R.string.user_name)), closeSoftKeyboard());
-
         onView(withId(R.id.textView))
                 .perform(typeText(getResourceString(R.string.password)), closeSoftKeyboard());
         onView(withId(R.id.loginButton)).perform(click());
-//        Thread.sleep(8000);
         onView(withId(R.id.logoutButton)).check(matches(isDisplayed()));
     }
 
+    /* This test is used to test the logout functionality */
     @Test
     public void test_03UserAuthenticationLogout() {
         onView(withId(R.id.logoutButton)).perform(click());
         onView(withId(R.id.loginButton)).check(matches(isDisplayed()));
     }
 
-
-    public static ViewAction waitId(final int viewId, final long millis) {
-        return new ViewAction() {
-            @Override
-            public Matcher<View> getConstraints() {
-                return isRoot();
-            }
-
-            @Override
-            public String getDescription() {
-                return "wait for a specific view with id <" + viewId + "> during " + millis + " millis.";
-            }
-
-            @Override
-            public void perform(final UiController uiController, final View view) {
-                uiController.loopMainThreadUntilIdle();
-                final long startTime = System.currentTimeMillis();
-                final long endTime = startTime + millis;
-                final Matcher<View> viewMatcher = withId(viewId);
-
-                do {
-                    for (View child : TreeIterables.breadthFirstViewTraversal(view)) {
-                        // found view with required ID
-                        if (viewMatcher.matches(child)) {
-                            return;
-                        }
-                    }
-
-                    uiController.loopMainThreadForAtLeast(50);
-                }
-                while (System.currentTimeMillis() < endTime);
-
-                // timeout happens
-                throw new PerformException.Builder()
-                        .withActionDescription(this.getDescription())
-                        .withViewDescription(HumanReadables.describe(view))
-                        .withCause(new TimeoutException())
-                        .build();
-            }
-        };
-    }
-
+    /*This method is used to get the content from string.xml */
     private String getResourceString(int id) {
         Context targetContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         return targetContext.getResources().getString(id);
     }
 
+    /*This method is executed after the test, used to unregister Idling resource */
     @After
     public void unregisterIdlingResource() {
         IdlingRegistry.getInstance().unregister(CountingIdlingResourceSingleton.countingIdlingResource);
